@@ -7,8 +7,8 @@
   <meta name="description" content="李默含，AIGC影像导演与AI视觉创作者。商业AI短剧导演与制作组长，代表作《儒道至圣》《全族单身狗》《求娇》《灭族之夜》。">
   
   <!-- Fonts -->
-  <link rel="stylesheet" href="ag-fonts-mobile-20261124.css">
-  <link rel="stylesheet" href="ag-style-mobile-20261124.css">
+  <link rel="stylesheet" href="ag-fonts-xpc-20261124.css">
+  <link rel="stylesheet" href="ag-style-xpc-20261124.css">
 </head>
 <body>
 
@@ -95,7 +95,7 @@
           <svg class="hero-cta-icon" viewBox="0 0 24 24" fill="currentColor">
             <path d="M8 5v14l11-7z"/>
           </svg>
-          <span>观看精选作品</span>
+          <span class="watch-label">观看精选作品</span>
         </button>
         <a href="#about" class="hero-secondary-btn">了解经历</a>
       </div>
@@ -114,7 +114,7 @@
     <div class="section-header">
       <div class="section-tag">SELECTED WORKS</div>
       <h2 class="section-title">作品精选</h2>
-      <p class="section-desc">商业 AI 短剧与独立影像创作 · 点击卡片即可全屏有声观看</p>
+      <p class="section-desc" id="worksDescription">商业 AI 短剧与独立影像创作 · 点击卡片即可全屏有声观看</p>
     </div>
 
     <div class="works-grid">
@@ -429,7 +429,7 @@
   </footer>
 
   <!-- ========== VIDEO PLAYER MODAL ========== -->
-  <div class="player-modal" id="playerModal" role="dialog" aria-modal="true" aria-labelledby="playerTitle">
+  <div class="player-modal" id="playerModal" role="dialog" aria-modal="true" aria-labelledby="playerTitle" aria-hidden="true" inert>
     <div class="player-backdrop" id="playerBackdrop"></div>
     <div class="player-container">
       <div class="player-header">
@@ -475,6 +475,6 @@
     </div>
   </div>
 
-  <script src="ag-main-mobile-20261124.js"></script>
+  <script src="ag-main-xpc-20261124.js"></script>
 </body>
 </html>
